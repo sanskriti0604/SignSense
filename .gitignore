@@ -1,0 +1,27 @@
+# Virtual Environment
+venv/
+.env
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (Kaggle datasets and generated CSVs)
+*.csv
+isl_dataset.csv
+combined_isl_data.csv
+kaggle_isl_dataset/
+
+# Trained AI Models
+*.p
+*.pkl
+isl_model.p
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE Settings
+.vscode/
+.idea/
